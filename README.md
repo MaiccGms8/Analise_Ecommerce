@@ -1,50 +1,45 @@
-# 📊 Análise E-commerce: Dashboard de Performance de Vendas
+# 📊  Análise E-Commerce 
+> **Transformando dados brutos em inteligência de negócio para mais de 600 parceiros.**
 
+[![Link do Dashboard](https://img.shields.io/badge/Acesse%20o%20Dashboard-Live-FF4B4B?style=for-the-badge&logo=streamlit)](https://maicon-ds-ecommerce.streamlit.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maicon-henrique-gomes147/)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ## 📝 Descrição do Projeto
-Este projeto apresenta uma solução completa de **análise** para e-commerce, indo desde o tratamento de dados brutos até a criação de um **Dashboard Interativo**. O objetivo é extrair insights estratégicos sobre o faturamento (**GMV**), comportamento de mais de 600 parceiros e o impacto real das campanhas promocionais.
+Este projeto apresenta uma solução completa de **análise de dados** para e-commerce. O pipeline abrange desde o tratamento de dados brutos (ETL) até a disponibilização de um **Dashboard Interativo** focado em KPIs estratégicos. 
 
-Diferente de uma análise estática, este projeto permite a filtragem dinâmica de parceiros e a visualização em tempo real de métricas de eficiência.
+A ferramenta permite monitorar o faturamento (**GMV**), o comportamento de performance de uma base de 600+ parceiros e a eficácia de campanhas promocionais, oferecendo uma visão dinâmica que supera análises estáticas em planilhas.
 
-## 🚀 Funcionalidades & Análises Técnicas
-* **Engenharia de Dados:** Limpeza de colunas, padronização de datas e criação de novas métricas (*Feature Engineering*) como **Ticket Médio** e **Taxa de Conversão**.
-* **Dashboard Interativo:** Interface desenvolvida em **Streamlit** com filtros dinâmicos por parceiro.
-* **Análise de Conversão MoM:** Cálculo de variação mensal (**Month-over-Month**) entre Abril e Maio.
-* **Performance Promocional:** Segmentação de dados para identificar o ROI e o faturamento gerado exclusivamente em períodos de campanha.
+## 🚀 Funcionalidades & Engenharia de Dados
+* **Pipeline de ETL:** Limpeza profunda de strings, padronização de séries temporais e tratamento de inconsistências.
+* **Feature Engineering:** Criação de métricas de negócio como **Ticket Médio** e **Taxa de Conversão** (calculada dinamicamente).
+* **Análise MoM (Month-over-Month):** Lógica para comparação de crescimento entre os meses de Abril e Maio.
+* **Segmentação Promocional:** Filtros avançados para isolar o faturamento gerado em períodos de campanha vs. períodos padrão.
 
 ## 📈 Insights Extraídos
-* **Conversão Geral:** A taxa de conversão média identificada foi de **63.86%**.
-* **Eficiência Mensal:** Comparativo detalhado da performance entre os meses de Abril e Maio.
-* **Pico de Vendas:** Identificação do maior faturamento diário (Ex: **R$ 142.970,36**).
+* **Eficiência de Funil:** Taxa de conversão média consolidada de **63.86%**.
+* **Performance Temporal:** Identificação de picos de faturamento diário atingindo **R$ 142.970,36**.
+* **Escalabilidade:** Dashboard otimizado para lidar com a visualização individual de mais de 600 IDs de parceiros sem perda de performance.
 
 ## 🛠️ Tecnologias e Ferramentas
 * **Linguagem:** Python 3.12
-* **Bibliotecas:** `Pandas` (Manipulação), `Plotly` (Visualização Interativa), `Streamlit` (Dashboard Framework).
-* **Ambiente:** Desenvolvido em **Linux Ubuntu** utilizando VS Code.
+* **Bibliotecas:** `Pandas` (ETL), `Plotly` (Gráficos Interativos), `Streamlit` (Deploy e Interface).
+* **Ambiente:** Desenvolvido em **Linux Ubuntu** com controle de versão via Git.
 
-## 📦 Como Executar o Projeto
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/MaiccGms8/Analise_Ecommerce.git](https://github.com/MaiccGms8/Analise_Ecommerce.git)
-   cd Analise_Ecommerce
-   
-Instale as dependências:
+## 📦 Como Executar
+```bash
+# Clone o repositório
+git clone [https://github.com/MaiccGms8/Analise_Ecommerce.git](https://github.com/MaiccGms8/Analise_Ecommerce.git)
 
-Bash
+# Acesse a pasta
+cd Analise_Ecommerce
+
+# Instale as dependências
 pip install -r requirements.txt
-Inicie o Dashboard:
 
-Bash
+# Inicie a aplicação
 streamlit run app.py
 
 👤 Autor
-Maicon Gomes Graduando em Ciência de Dados — UEPB | 📍 Campina Grande, PB
-
-Este projeto demonstra competências em análise exploratória, tratamento de séries temporais e desenvolvimento de ferramentas de visualização de dados.
-
+Maicon Gomes Graduando em Ciência de Dados — Universidade Estadual da Paraíba (UEPB) 📍 Campina Grande, PB
 
